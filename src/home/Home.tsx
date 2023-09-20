@@ -1,4 +1,4 @@
-import { BikeSuzukiCanvas, ComputersCanvas, MotorcycleCanvas } from "../components";
+import { BikeSuzukiCanvas, ComputersCanvas, EarthCanvas, MotorcycleCanvas } from "../components";
 
 export default function Home() {
     return (
@@ -12,6 +12,7 @@ export default function Home() {
             <ComputersCanvas />
             <BikeSuzukiCanvas />
             <MotorcycleCanvas />
+            <EarthCanvas />
 
         </main>
     )
