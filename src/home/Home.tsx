@@ -1,4 +1,4 @@
-import { ComputersCanvas } from "../components/computer";
+import { BikeSuzukiCanvas, ComputersCanvas } from "../components";
 
 export default function Home() {
     return (
@@ -10,6 +10,7 @@ export default function Home() {
                 This is the partice project for the Three JS
             </h1>
             <ComputersCanvas />
+            <BikeSuzukiCanvas />
 
         </main>
     )
