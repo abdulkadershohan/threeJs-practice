@@ -38,7 +38,7 @@ function BikeSuzukiCanvas() {
         >
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls
-                    enableZoom={false}
+                    // enableZoom={false}
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2}
                 />

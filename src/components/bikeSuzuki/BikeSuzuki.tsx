@@ -18,9 +18,9 @@ export default function BikeSuzuki({ isMobile }: Props) {
             <pointLight intensity={1} />
             <primitive
                 object={computer.scene}
-                scale={isMobile ? 0.7 : 0.8}
-                position={isMobile ? [0, 0, -2.2] : [0, -1.25, -1.5]}
-                rotation={[-0.01, -0.2, -0.1]}
+                scale={isMobile ? 2.2 : 5}
+                position={isMobile ? [0, 0, 1.2] : [0, -1.25, 2]}
+                rotation={[-0.01, 350, -0.1]}
             />
         </mesh>
     )
