@@ -2,8 +2,8 @@ import { useGLTF } from "@react-three/drei";
 interface Props {
     isMobile: boolean;
 }
-export default function BikeSuzuki({ isMobile }: Props) {
-    const bike = useGLTF("/2020_suzuki_sv650_motorcycle/scene.gltf");
+export default function Motorcycle({ isMobile }: Props) {
+    const motorcycle = useGLTF("/motorcycle/scene.gltf");
     return (
         <mesh>
             <hemisphereLight intensity={5} groundColor='black' />
@@ -17,10 +17,10 @@ export default function BikeSuzuki({ isMobile }: Props) {
             />
             <pointLight intensity={1} />
             <primitive
-                object={bike.scene}
-                scale={isMobile ? 2.2 : 5}
-                position={isMobile ? [0, 0, 1.2] : [0, -1.25, 2]}
-                rotation={[-0.01, 350, -0.1]}
+                object={motorcycle.scene}
+                scale={isMobile ? 2.2 : 4}
+                position={isMobile ? [0, 0, 0.5] : [0, -1.25, 0]}
+                rotation={[-0.01, 600, 0]}
             />
         </mesh>
     )
