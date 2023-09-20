@@ -1,0 +1,11 @@
+Model Information:
+* title:	2020 Suzuki SV650 Motorcycle
+* source:	https://sketchfab.com/3d-models/2020-suzuki-sv650-motorcycle-f087d91981284d118e433aab36c6bccd
+* author:	johnnokomis (https://sketchfab.com/johnnokomis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2020 Suzuki SV650 Motorcycle" (https://sketchfab.com/3d-models/2020-suzuki-sv650-motorcycle-f087d91981284d118e433aab36c6bccd) by johnnokomis (https://sketchfab.com/johnnokomis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
