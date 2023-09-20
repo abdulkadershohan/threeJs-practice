@@ -1,10 +1,11 @@
 import { OrbitControls, Preload } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useState } from "react";
-import Computers from "./Computers";
+import SectionLayout from "../../hoc/SectionLayout";
 import { CanvasLoader } from "../../utils";
+import Computers from "./Computers";
 
-export default function ComputersCanvas() {
+function ComputersCanvas() {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -48,3 +49,9 @@ export default function ComputersCanvas() {
         </Canvas>
     )
 }
+
+export default SectionLayout({
+    id: "computers",
+    Component: ComputersCanvas,
+    title: "Computer 3D Model"
+})
