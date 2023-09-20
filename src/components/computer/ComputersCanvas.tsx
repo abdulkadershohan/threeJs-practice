@@ -1,8 +1,8 @@
 import { OrbitControls, Preload } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useState } from "react";
-import { CanvasLoader } from "..";
 import Computers from "./Computers";
+import { CanvasLoader } from "../../utils";
 
 export default function ComputersCanvas() {
     const [isMobile, setIsMobile] = useState(false);
